@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  app_blue:
+    image: leesoo/eb-blue
+    ports:
+      - "7001:7001"
+  app_red:
+    image: leesoo/eb-red
+    ports:
+      - "7000:7000"
+  
